@@ -7,7 +7,7 @@ let todos = [
 ];
 
 router.get("/", (req, res) => {
-  res.json(todos);
+  res.json({ todos });
 });
 
 router.get("/:id", (req, res) => {
